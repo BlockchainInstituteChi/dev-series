@@ -1,0 +1,23 @@
+.button {
+  background: black;
+  color: white;
+}
+
+.button:hover {
+  background: green;
+  color: black;
+}
+
+.nav {
+  font-weight: bold;
+}
+
+.product {
+  float: left;
+  margin-right: 3ex;
+}
+
+.selected {
+  background: blue;
+}
+

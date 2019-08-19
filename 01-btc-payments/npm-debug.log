@@ -1,0 +1,470 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'zmq', '-g' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData zmq
+8 silly fetchNamedPackageData zmq
+9 silly mapToRegistry name zmq
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/zmq
+13 verbose request uri https://registry.npmjs.org/zmq
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 9:40:53 PM
+16 verbose request id 5454c8ad10fed802
+17 verbose etag W/"cc03b546e41217024f6c41a210a6fc76"
+18 verbose lastModified Sun, 27 May 2018 22:54:46 GMT
+19 http request GET https://registry.npmjs.org/zmq
+20 http 304 https://registry.npmjs.org/zmq
+21 verbose headers { date: 'Thu, 15 Aug 2019 21:40:53 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'set-cookie':
+21 verbose headers    [ '__cfduid=dfcef333b856ec2788ed55b79697e1ba11565905253; expires=Fri, 14-Aug-20 21:40:53 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+21 verbose headers   'cf-cache-status': 'HIT',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   'cf-ray': '506e5459cb6acf04-IAD',
+21 verbose headers   age: '4676',
+21 verbose headers   etag: '"cc03b546e41217024f6c41a210a6fc76"',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   'last-modified': 'Sun, 27 May 2018 22:54:46 GMT',
+21 verbose headers   vary: 'accept-encoding, accept',
+21 verbose headers   server: 'cloudflare' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Thu, 15 Aug 2019 21:40:53 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'set-cookie':
+22 silly get      [ '__cfduid=dfcef333b856ec2788ed55b79697e1ba11565905253; expires=Fri, 14-Aug-20 21:40:53 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+22 silly get     'cf-cache-status': 'HIT',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     'cf-ray': '506e5459cb6acf04-IAD',
+22 silly get     age: '4676',
+22 silly get     etag: '"cc03b546e41217024f6c41a210a6fc76"',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     'last-modified': 'Sun, 27 May 2018 22:54:46 GMT',
+22 silly get     vary: 'accept-encoding, accept',
+22 silly get     server: 'cloudflare' } ]
+23 verbose etag https://registry.npmjs.org/zmq from cache
+24 verbose get saving zmq to /home/ubuntu/.npm/registry.npmjs.org/zmq/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule zmq@2.15.3 checking installable status
+38 silly cache add args [ 'zmq', null ]
+39 verbose cache add spec zmq
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'zmq',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'zmq',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed zmq@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for zmq
+43 info addNameTag [ 'zmq', 'latest' ]
+44 silly mapToRegistry name zmq
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/zmq
+48 verbose addNameTag registry:https://registry.npmjs.org/zmq not in flight; fetching
+49 verbose get https://registry.npmjs.org/zmq not expired, no request
+50 silly addNameTag next cb for zmq with tag latest
+51 silly addNamed zmq@2.15.3
+52 verbose addNamed "2.15.3" is a plain semver version for zmq
+53 silly cache afterAdd zmq@2.15.3
+54 verbose afterAdd /home/ubuntu/.npm/zmq/2.15.3/package/package.json not in flight; writing
+55 verbose afterAdd /home/ubuntu/.npm/zmq/2.15.3/package/package.json written
+56 silly fetchNamedPackageData nan
+57 silly mapToRegistry name nan
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/nan
+61 silly fetchNamedPackageData bindings
+62 silly mapToRegistry name bindings
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/bindings
+66 verbose request uri https://registry.npmjs.org/nan
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 9:40:53 PM
+69 verbose etag W/"a665a85bde8d605dbf85b9013ecf702b"
+70 verbose lastModified Thu, 16 May 2019 19:11:40 GMT
+71 http request GET https://registry.npmjs.org/nan
+72 verbose request uri https://registry.npmjs.org/bindings
+73 verbose request no auth needed
+74 info attempt registry request try #1 at 9:40:53 PM
+75 verbose etag W/"8dfe34716157e36596b3ba5e5fcfb617"
+76 verbose lastModified Wed, 27 Feb 2019 22:54:48 GMT
+77 http request GET https://registry.npmjs.org/bindings
+78 http 304 https://registry.npmjs.org/nan
+79 verbose headers { date: 'Thu, 15 Aug 2019 21:40:53 GMT',
+79 verbose headers   connection: 'keep-alive',
+79 verbose headers   'set-cookie':
+79 verbose headers    [ '__cfduid=dfcef333b856ec2788ed55b79697e1ba11565905253; expires=Fri, 14-Aug-20 21:40:53 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+79 verbose headers   'cf-cache-status': 'HIT',
+79 verbose headers   'cache-control': 'max-age=300',
+79 verbose headers   'cf-ray': '506e545d2ef0cf04-IAD',
+79 verbose headers   age: '7174',
+79 verbose headers   etag: '"a665a85bde8d605dbf85b9013ecf702b"',
+79 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+79 verbose headers   'last-modified': 'Thu, 16 May 2019 19:11:40 GMT',
+79 verbose headers   vary: 'accept-encoding, accept',
+79 verbose headers   'x-amz-meta-rev': '187-4027ea0c01577aa817d1396fc47fd498',
+79 verbose headers   server: 'cloudflare' }
+80 silly get cb [ 304,
+80 silly get   { date: 'Thu, 15 Aug 2019 21:40:53 GMT',
+80 silly get     connection: 'keep-alive',
+80 silly get     'set-cookie':
+80 silly get      [ '__cfduid=dfcef333b856ec2788ed55b79697e1ba11565905253; expires=Fri, 14-Aug-20 21:40:53 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+80 silly get     'cf-cache-status': 'HIT',
+80 silly get     'cache-control': 'max-age=300',
+80 silly get     'cf-ray': '506e545d2ef0cf04-IAD',
+80 silly get     age: '7174',
+80 silly get     etag: '"a665a85bde8d605dbf85b9013ecf702b"',
+80 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+80 silly get     'last-modified': 'Thu, 16 May 2019 19:11:40 GMT',
+80 silly get     vary: 'accept-encoding, accept',
+80 silly get     'x-amz-meta-rev': '187-4027ea0c01577aa817d1396fc47fd498',
+80 silly get     server: 'cloudflare' } ]
+81 verbose etag https://registry.npmjs.org/nan from cache
+82 verbose get saving nan to /home/ubuntu/.npm/registry.npmjs.org/nan/.cache.json
+83 silly resolveWithNewModule nan@2.3.5 checking installable status
+84 silly cache add args [ 'nan@~2.3.0', null ]
+85 verbose cache add spec nan@~2.3.0
+86 silly cache add parsed spec Result {
+86 silly cache add   raw: 'nan@~2.3.0',
+86 silly cache add   scope: null,
+86 silly cache add   name: 'nan',
+86 silly cache add   rawSpec: '~2.3.0',
+86 silly cache add   spec: '>=2.3.0 <2.4.0',
+86 silly cache add   type: 'range' }
+87 silly addNamed nan@>=2.3.0 <2.4.0
+88 verbose addNamed ">=2.3.0 <2.4.0" is a valid semver range for nan
+89 silly addNameRange { name: 'nan', range: '>=2.3.0 <2.4.0', hasData: false }
+90 silly mapToRegistry name nan
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry https://registry.npmjs.org/
+93 silly mapToRegistry uri https://registry.npmjs.org/nan
+94 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+95 verbose get https://registry.npmjs.org/nan not expired, no request
+96 silly addNameRange number 2 { name: 'nan', range: '>=2.3.0 <2.4.0', hasData: true }
+97 silly addNameRange versions [ 'nan',
+97 silly addNameRange   [ '0.3.0-wip',
+97 silly addNameRange     '0.3.0-wip2',
+97 silly addNameRange     '0.3.0',
+97 silly addNameRange     '0.3.1',
+97 silly addNameRange     '0.3.2',
+97 silly addNameRange     '0.4.0',
+97 silly addNameRange     '0.4.1',
+97 silly addNameRange     '0.4.2',
+97 silly addNameRange     '0.4.3',
+97 silly addNameRange     '0.4.4',
+97 silly addNameRange     '0.5.0',
+97 silly addNameRange     '0.5.1',
+97 silly addNameRange     '0.5.2',
+97 silly addNameRange     '0.6.0',
+97 silly addNameRange     '0.7.0',
+97 silly addNameRange     '0.7.1',
+97 silly addNameRange     '0.8.0',
+97 silly addNameRange     '1.0.0',
+97 silly addNameRange     '1.1.0',
+97 silly addNameRange     '1.1.1',
+97 silly addNameRange     '1.1.2',
+97 silly addNameRange     '1.2.0',
+97 silly addNameRange     '1.3.0',
+97 silly addNameRange     '1.4.0',
+97 silly addNameRange     '1.4.1',
+97 silly addNameRange     '1.5.0',
+97 silly addNameRange     '1.4.2',
+97 silly addNameRange     '1.4.3',
+97 silly addNameRange     '1.5.1',
+97 silly addNameRange     '1.5.2',
+97 silly addNameRange     '1.6.0',
+97 silly addNameRange     '1.5.3',
+97 silly addNameRange     '1.6.1',
+97 silly addNameRange     '1.6.2',
+97 silly addNameRange     '1.7.0',
+97 silly addNameRange     '1.8.0',
+97 silly addNameRange     '1.8.1',
+97 silly addNameRange     '1.8.2',
+97 silly addNameRange     '1.8.3',
+97 silly addNameRange     '1.8.4',
+97 silly addNameRange     '1.9.0',
+97 silly addNameRange     '2.0.0',
+97 silly addNameRange     '2.0.1',
+97 silly addNameRange     '2.0.2',
+97 silly addNameRange     '2.0.3',
+97 silly addNameRange     '2.0.4',
+97 silly addNameRange     '2.0.5',
+97 silly addNameRange     '2.0.6',
+97 silly addNameRange     '2.0.7',
+97 silly addNameRange     '2.0.8',
+97 silly addNameRange     '2.0.9',
+97 silly addNameRange     '2.1.0',
+97 silly addNameRange     '2.2.0',
+97 silly addNameRange     '2.2.1',
+97 silly addNameRange     '2.3.0',
+97 silly addNameRange     '2.3.1',
+97 silly addNameRange     '2.3.2',
+97 silly addNameRange     '2.3.3',
+97 silly addNameRange     '2.3.4',
+97 silly addNameRange     '2.3.5',
+97 silly addNameRange     '2.4.0',
+97 silly addNameRange     '2.5.0',
+97 silly addNameRange     '2.5.1',
+97 silly addNameRange     '2.6.0',
+97 silly addNameRange     '2.6.1',
+97 silly addNameRange     '2.6.2',
+97 silly addNameRange     '2.7.0',
+97 silly addNameRange     '2.8.0',
+97 silly addNameRange     '2.9.1',
+97 silly addNameRange     '2.9.2',
+97 silly addNameRange     '2.10.0',
+97 silly addNameRange     '2.11.0',
+97 silly addNameRange     '2.11.1',
+97 silly addNameRange     '2.12.0',
+97 silly addNameRange     '2.12.1',
+97 silly addNameRange     '2.13.0',
+97 silly addNameRange     '2.13.1',
+97 silly addNameRange     '2.13.2',
+97 silly addNameRange     '2.14.0' ] ]
+98 silly addNamed nan@2.3.5
+99 verbose addNamed "2.3.5" is a plain semver version for nan
+100 silly cache afterAdd nan@2.3.5
+101 verbose afterAdd /home/ubuntu/.npm/nan/2.3.5/package/package.json not in flight; writing
+102 verbose afterAdd /home/ubuntu/.npm/nan/2.3.5/package/package.json written
+103 http 304 https://registry.npmjs.org/bindings
+104 verbose headers { date: 'Thu, 15 Aug 2019 21:40:54 GMT',
+104 verbose headers   connection: 'keep-alive',
+104 verbose headers   'set-cookie':
+104 verbose headers    [ '__cfduid=d3790d552a93be4d132a89970e59abbac1565905254; expires=Fri, 14-Aug-20 21:40:54 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+104 verbose headers   'cf-cache-status': 'HIT',
+104 verbose headers   'cache-control': 'max-age=300',
+104 verbose headers   'cf-ray': '506e545dc986cef8-IAD',
+104 verbose headers   age: '4063',
+104 verbose headers   etag: '"8dfe34716157e36596b3ba5e5fcfb617"',
+104 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+104 verbose headers   'last-modified': 'Wed, 27 Feb 2019 22:54:48 GMT',
+104 verbose headers   vary: 'accept-encoding, accept',
+104 verbose headers   'x-amz-meta-rev': '66-b1ca5aefc319d9a2058a07561bf4cc31',
+104 verbose headers   server: 'cloudflare' }
+105 silly get cb [ 304,
+105 silly get   { date: 'Thu, 15 Aug 2019 21:40:54 GMT',
+105 silly get     connection: 'keep-alive',
+105 silly get     'set-cookie':
+105 silly get      [ '__cfduid=d3790d552a93be4d132a89970e59abbac1565905254; expires=Fri, 14-Aug-20 21:40:54 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+105 silly get     'cf-cache-status': 'HIT',
+105 silly get     'cache-control': 'max-age=300',
+105 silly get     'cf-ray': '506e545dc986cef8-IAD',
+105 silly get     age: '4063',
+105 silly get     etag: '"8dfe34716157e36596b3ba5e5fcfb617"',
+105 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+105 silly get     'last-modified': 'Wed, 27 Feb 2019 22:54:48 GMT',
+105 silly get     vary: 'accept-encoding, accept',
+105 silly get     'x-amz-meta-rev': '66-b1ca5aefc319d9a2058a07561bf4cc31',
+105 silly get     server: 'cloudflare' } ]
+106 verbose etag https://registry.npmjs.org/bindings from cache
+107 verbose get saving bindings to /home/ubuntu/.npm/registry.npmjs.org/bindings/.cache.json
+108 silly resolveWithNewModule bindings@1.2.1 checking installable status
+109 silly cache add args [ 'bindings@~1.2.1', null ]
+110 verbose cache add spec bindings@~1.2.1
+111 silly cache add parsed spec Result {
+111 silly cache add   raw: 'bindings@~1.2.1',
+111 silly cache add   scope: null,
+111 silly cache add   name: 'bindings',
+111 silly cache add   rawSpec: '~1.2.1',
+111 silly cache add   spec: '>=1.2.1 <1.3.0',
+111 silly cache add   type: 'range' }
+112 silly addNamed bindings@>=1.2.1 <1.3.0
+113 verbose addNamed ">=1.2.1 <1.3.0" is a valid semver range for bindings
+114 silly addNameRange { name: 'bindings', range: '>=1.2.1 <1.3.0', hasData: false }
+115 silly mapToRegistry name bindings
+116 silly mapToRegistry using default registry
+117 silly mapToRegistry registry https://registry.npmjs.org/
+118 silly mapToRegistry uri https://registry.npmjs.org/bindings
+119 verbose addNameRange registry:https://registry.npmjs.org/bindings not in flight; fetching
+120 verbose get https://registry.npmjs.org/bindings not expired, no request
+121 silly addNameRange number 2 { name: 'bindings', range: '>=1.2.1 <1.3.0', hasData: true }
+122 silly addNameRange versions [ 'bindings',
+122 silly addNameRange   [ '0.0.1',
+122 silly addNameRange     '0.1.0',
+122 silly addNameRange     '0.1.1',
+122 silly addNameRange     '0.2.0',
+122 silly addNameRange     '0.2.1',
+122 silly addNameRange     '0.2.2',
+122 silly addNameRange     '0.2.3',
+122 silly addNameRange     '0.2.4',
+122 silly addNameRange     '0.3.0',
+122 silly addNameRange     '0.4.0',
+122 silly addNameRange     '1.0.0',
+122 silly addNameRange     '1.1.0',
+122 silly addNameRange     '1.1.1',
+122 silly addNameRange     '1.2.0',
+122 silly addNameRange     '1.2.1',
+122 silly addNameRange     '1.3.0',
+122 silly addNameRange     '1.3.1',
+122 silly addNameRange     '1.4.0',
+122 silly addNameRange     '1.5.0' ] ]
+123 silly addNamed bindings@1.2.1
+124 verbose addNamed "1.2.1" is a plain semver version for bindings
+125 silly cache afterAdd bindings@1.2.1
+126 verbose afterAdd /home/ubuntu/.npm/bindings/1.2.1/package/package.json not in flight; writing
+127 verbose afterAdd /home/ubuntu/.npm/bindings/1.2.1/package/package.json written
+128 silly loadAllDepsIntoIdealTree Finishing
+129 silly idealTree:prePrune lib
+129 silly idealTree:prePrune └─┬ zmq@2.15.3
+129 silly idealTree:prePrune   ├── bindings@1.2.1
+129 silly idealTree:prePrune   └── nan@2.3.5
+130 silly loadIdealTree Finishing
+131 silly currentTree lib
+131 silly currentTree └─┬ zmq@2.15.3
+131 silly currentTree   ├── bindings@1.2.1
+131 silly currentTree   └── nan@2.3.5
+132 silly idealTree lib
+132 silly idealTree └─┬ zmq@2.15.3
+132 silly idealTree   ├── bindings@1.2.1
+132 silly idealTree   └── nan@2.3.5
+133 silly generateActionsToTake Starting
+134 silly install generateActionsToTake
+135 silly generateActionsToTake Finishing
+136 silly diffTrees action count 1
+137 silly diffTrees update zmq@2.15.3
+138 silly decomposeActions action count 8
+139 silly decomposeActions fetch zmq@2.15.3
+140 silly decomposeActions extract zmq@2.15.3
+141 silly decomposeActions test zmq@2.15.3
+142 silly decomposeActions preinstall zmq@2.15.3
+143 silly decomposeActions build zmq@2.15.3
+144 silly decomposeActions install zmq@2.15.3
+145 silly decomposeActions postinstall zmq@2.15.3
+146 silly decomposeActions finalize zmq@2.15.3
+147 silly executeActions Starting
+148 silly install executeActions
+149 silly doSerial global-install 0
+150 silly doParallel fetch 1
+151 verbose lock using /home/ubuntu/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+152 silly doParallel extract 1
+153 silly extract zmq@2.15.3
+154 verbose unbuild lib/node_modules/.staging/zmq-8e8fa023
+155 silly gentlyRm /usr/local/lib/node_modules/.staging/zmq-8e8fa023 is being purged from base /usr/local
+156 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/zmq-8e8fa023
+157 verbose tar unpack /home/ubuntu/.npm/zmq/2.15.3/package.tgz
+158 verbose tar unpacking to /usr/local/lib/node_modules/.staging/zmq-8e8fa023
+159 silly gentlyRm /usr/local/lib/node_modules/.staging/zmq-8e8fa023 is being purged
+160 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/zmq-8e8fa023
+161 silly gunzTarPerm modes [ '755', '644' ]
+162 silly gunzTarPerm extractEntry package.json
+163 silly gunzTarPerm extractEntry .npmignore
+164 silly gunzTarPerm extractEntry README.md
+165 silly gunzTarPerm extractEntry LICENSE
+166 silly gunzTarPerm extractEntry index.js
+167 silly gunzTarPerm extractEntry binding.gyp
+168 silly gunzTarPerm extractEntry Makefile
+169 silly gunzTarPerm extractEntry .travis.yml
+170 silly gunzTarPerm extractEntry appveyor.yml
+171 silly gunzTarPerm extractEntry binding.cc
+172 silly gunzTarPerm extractEntry examples/dealer_router.js
+173 silly gunzTarPerm extractEntry examples/pub_sub.js
+174 silly gunzTarPerm extractEntry examples/push_pull.js
+175 silly gunzTarPerm extractEntry examples/rep_req.js
+176 silly gunzTarPerm extractEntry examples/req_rep.js
+177 silly gunzTarPerm extractEntry examples/router_dealer.js
+178 silly gunzTarPerm extractEntry examples/rpc.js
+179 silly gunzTarPerm extractEntry examples/devices/forwarder.js
+180 silly gunzTarPerm extractEntry examples/devices/queue.js
+181 silly gunzTarPerm extractEntry examples/devices/streamer.js
+182 silly gunzTarPerm extractEntry examples/workers/producer.js
+183 silly gunzTarPerm extractEntry examples/workers/worker.js
+184 silly gunzTarPerm extractEntry History.md
+185 silly gunzTarPerm extractEntry lib/index.js
+186 silly gunzTarPerm extractEntry test/context.js
+187 silly gunzTarPerm extractEntry test/socket.monitor.js
+188 silly gunzTarPerm extractEntry test/socket.pair.js
+189 silly gunzTarPerm extractEntry test/socket.pub-sub.js
+190 silly gunzTarPerm extractEntry test/socket.messages.js
+191 silly gunzTarPerm extractEntry test/exports.js
+192 silly gunzTarPerm extractEntry test/socket.router.js
+193 silly gunzTarPerm extractEntry test/socket.stream.js
+194 silly gunzTarPerm extractEntry test/socket.unbind.js
+195 silly gunzTarPerm extractEntry test/socket.xpub-xsub.js
+196 silly gunzTarPerm extractEntry test/socket.js
+197 silly gunzTarPerm extractEntry test/socket.zap.js
+198 silly gunzTarPerm extractEntry test/socket.events.js
+199 silly gunzTarPerm extractEntry test/zap.js
+200 silly gunzTarPerm extractEntry test/socket.error-callback.js
+201 silly gunzTarPerm extractEntry test/zmq_proxy.js
+202 silly gunzTarPerm extractEntry test/zmq_proxy.xpub-xsub.js
+203 silly gunzTarPerm extractEntry test/zmq_proxy.push-pull.js
+204 silly gunzTarPerm extractEntry test/gc.js
+205 silly gunzTarPerm extractEntry test/zmq_proxy.router-dealer.js
+206 silly gunzTarPerm extractEntry test/socket.push-pull.js
+207 silly gunzTarPerm extractEntry test/zmq_proxy.xrep-xreq.js
+208 silly gunzTarPerm extractEntry test/socket.req-rep.js
+209 silly gunzTarPerm extractEntry test/mocha.opts
+210 silly gunzTarPerm extractEntry .editorconfig
+211 silly gunzTarPerm extractEntry perf/local_lat.js
+212 silly gunzTarPerm extractEntry perf/local_thr.js
+213 silly gunzTarPerm extractEntry perf/remote_lat.js
+214 silly gunzTarPerm extractEntry perf/remote_thr.js
+215 silly gunzTarPerm extractEntry windows/include/zmq.h
+216 silly gunzTarPerm extractEntry windows/include/zmq_utils.h
+217 silly gunzTarPerm extractEntry windows/lib/x64/libzmq-v100-mt-4_0_4.dll
+218 silly gunzTarPerm extractEntry windows/lib/x64/libzmq-v100-mt-4_0_4.lib
+219 silly gunzTarPerm extractEntry windows/lib/x86/libzmq-v100-mt-4_0_4.dll
+220 silly gunzTarPerm extractEntry windows/lib/x86/libzmq-v100-mt-4_0_4.lib
+221 silly gentlyRm /usr/local/lib/node_modules/.staging/zmq-8e8fa023/node_modules is being purged
+222 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/zmq-8e8fa023/node_modules
+223 silly doParallel preinstall 1
+224 silly preinstall zmq@2.15.3 /usr/local/lib/node_modules/.staging/zmq-8e8fa023
+225 info lifecycle zmq@2.15.3~preinstall: zmq@2.15.3
+226 silly lifecycle zmq@2.15.3~preinstall: no script for preinstall, continuing
+227 silly doReverseSerial remove 0
+228 silly doSerial move 0
+229 silly doSerial finalize 1
+230 silly finalize /usr/local/lib/node_modules/zmq
+231 silly doSerial build 1
+232 silly build zmq@2.15.3
+233 info linkStuff zmq@2.15.3
+234 silly linkStuff zmq@2.15.3 has /usr/local/lib/node_modules as its parent node_modules
+235 silly linkStuff zmq@2.15.3 is part of a global install
+236 silly linkStuff zmq@2.15.3 is installed into a global node_modules
+237 silly linkStuff zmq@2.15.3 is installed into the top-level global node_modules
+238 verbose linkBins zmq@2.15.3
+239 verbose linkMans zmq@2.15.3
+240 silly doSerial global-link 0
+241 silly doParallel update-linked 0
+242 silly doSerial install 1
+243 silly install zmq@2.15.3 /usr/local/lib/node_modules/.staging/zmq-8e8fa023
+244 info lifecycle zmq@2.15.3~install: zmq@2.15.3
+245 verbose lifecycle zmq@2.15.3~install: unsafe-perm in lifecycle false
+246 verbose lifecycle zmq@2.15.3~install: PATH: /usr/share/npm/bin/node-gyp-bin:/usr/local/lib/node_modules/zmq/node_modules/.bin:/usr/local/lib/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+247 verbose lifecycle zmq@2.15.3~install: CWD: /usr/local/lib/node_modules/zmq
+248 silly lifecycle zmq@2.15.3~install: Args: [ '-c', 'node-gyp rebuild' ]
+249 silly lifecycle zmq@2.15.3~install: Returned: code: 1  signal: null
+250 info lifecycle zmq@2.15.3~install: Failed to exec install script
+251 verbose stack Error: write EIO
+251 verbose stack     at _errnoException (util.js:1022:11)
+251 verbose stack     at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
+252 verbose cwd /home/ubuntu/dev-series-1/01-btc-payments
+253 error Linux 4.15.0-1045-aws
+254 error argv "/usr/bin/node" "/usr/bin/npm" "install" "zmq" "-g"
+255 error node v8.10.0
+256 error npm  v3.5.2
+257 error code EIO
+258 error errno EIO
+259 error syscall write
+260 error write EIO
+261 error If you need help, you may report this error at:
+261 error     <https://github.com/npm/npm/issues>
+262 verbose exit [ 1, true ]
